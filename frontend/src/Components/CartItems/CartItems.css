@@ -1,0 +1,202 @@
+.cartitems{
+    margin: 100px 170px;
+}
+
+.cartitems hr{
+    height: 3px;
+    background: #E6E6E6;
+    border: 0;
+}
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: #1B3633;
+    font-size: 16px;
+    font-weight: 600;
+}
+.cartitems-format{
+    font-size: 15px;
+    font-weight: 500;
+}
+.carticon-product-icon{
+    height: 62px;
+}
+.cartitems-remove-icon{
+    width: 15px;
+    margin: 0px 25px;
+    align-items: center;
+    cursor: pointer;
+}
+.cartitems-quantity{
+    width: 64px;
+    height: 50px;
+    border: 3px solid #E6E6E6;
+    background: #fff;
+    border-radius: 5px;
+}
+.cartitems-down{
+    display: flex;
+    margin: 100px 0px;
+}
+.cartitems-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+}
+.cartitems-total h1{
+    text-transform: capitalize;
+}
+.cartitems-total-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.cartitems-total button{
+    width: 262px;
+    height: 58px;
+    border: none;
+    outline: none;
+    background: #CAD3E5;
+    color: #1B3633;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cartitems-promocode{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+.cartitems-promocode p{
+    color: #1B3633;
+}
+.cartitems-promobox{
+    width: 504px;
+    height: 58px;
+    margin-top: 15px;
+    padding-left: 20px;
+    background: #E6E6E6;
+    border-radius: 5px;
+}
+.cartitems-promocode input{
+    width: 330px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #1B3633;
+}
+.cartitems-promocode button{
+    width: 170px;
+    height: 58px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #1B3633;
+    color: #CAD3E5;
+    cursor: pointer;
+}
+@media(max-width:1280px){
+    .cartitems{
+        margin: 60px 50px;
+    }
+    .cartitems-format-main{
+        grid-template-columns: 0.5fr 3fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        gap: 20px;
+        padding: 15px 0px;
+        font-size: 15px;
+    }
+    .carticon-product-icon{
+        height: 50px;
+        margin-left: 15px;
+    }
+    .cartitems-remove-icon{
+        margin: auto;
+    }
+    .cartitems-quantity{
+        width: 40px;
+        height: 30px;
+    }
+    .cartitems-down{
+        margin: 80px 0px;
+        flex-direction: column;
+        gap: 80px;
+    }
+    .cartitems-total{
+        margin: 0;
+    }
+    .cartitems-total button{
+        max-width: 200px;
+        height: 45px;
+        font-size: 15px;
+    }
+    .cartitems-promobox{
+        width: auto;
+        max-width: 500px;
+    }
+    .cartitems-promobox input{
+        width: 100%;
+    }
+    .cartitems-promobox button{
+        width: 120px;
+        margin-left: -125px;
+        font-size: 15px;
+    }
+}
+@media(max-width:800px){
+    .cartitems{
+        margin-top: 100px;
+    }
+    .cartitems-format-main{
+        grid-template-columns: 0.4fr 2fr 0.4fr 0.4fr 0.4fr 0.4fr;
+        gap: 15px;
+        padding: 4px 0px;
+        font-size: 10px;
+    }
+}
+@media(max-width:500px){
+    .cartitems{
+        margin-top: 100px;
+    }
+    .cartitems-format-main{
+        display: none;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        gap: 10px;
+    }
+    .cartitems-format{
+        display: grid;
+    }
+    .cartitems-down{
+        margin: 50px 0px;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .cartitems-total{
+        margin: 0;
+    }
+    .cartitems-total button{
+        max-width: 180px;
+        height: 45px;
+        font-size: 14px;
+    }
+    .cartitems-promobox{
+        width: auto;
+        max-width: 450px;
+    }
+    .cartitems-promobox input{
+        width: 100%;
+        font-size: 14px;
+    }
+    .cartitems-promobox button{
+        width: 120px;
+        margin-left: -125px;
+        font-size: 15px;
+    }
+}

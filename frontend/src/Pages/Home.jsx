@@ -1,0 +1,22 @@
+import React from 'react'
+import Hero from '../Components/Hero/Hero'
+import Popular from '../Components/Popular/Popular'
+import Popular2 from '../Components/Popular/Popular2'
+import Offers from '../Components/Offers/Offers'
+import NewCollections from '../Components/NewCollections/NewCollections'
+import NewsLetter from '../Components/NewsLetter/NewsLetter'
+
+const Home = () => {
+  return (
+    <div>
+      <Hero/>
+      <Popular/>
+      <Popular2/>
+      <Offers/>
+      <NewCollections/>
+      <NewsLetter/>
+    </div>
+  )
+}
+
+export default Home
