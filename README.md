@@ -1,6 +1,3 @@
-# View Demo:-
-[e-comclothstore.netlify.app](https://e-comclothstore.netlify.app/)
-
 # React E-commerce Project
 
 ## Table of Contents
